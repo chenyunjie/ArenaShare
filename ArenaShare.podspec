@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ArenaShare"
-  s.version      = "0.0.2"
-  s.summary      = "A short description of ArenaShare."
+  s.version      = "0.0.3"
+  s.summary      = "Arena分享插件"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-测试
+Arena分享插件，用于arena容器使用
                    DESC
 
   s.homepage     = "https://github.com/chenyunjie/ArenaShare"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -134,5 +134,9 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+
+  s.dependency "UMengUShare/UI"
+  s.dependency "UMengUShare/Social/WeChat"
+  s.dependency "UMengUShare/Social/QQ"
 
 end

@@ -25,6 +25,8 @@
 		5E6D136C1FA1C183002BA444 /* ArenaShare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D136B1FA1C183002BA444 /* ArenaShare.podspec */; };
 		5E6D136F1FA1C263002BA444 /* Share.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6D136D1FA1C263002BA444 /* Share.h */; };
 		5E6D13701FA1C263002BA444 /* Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D136E1FA1C263002BA444 /* Share.m */; };
+		5E6D13731FA1C5B2002BA444 /* UIViewController+CurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6D13711FA1C5B2002BA444 /* UIViewController+CurrentViewController.h */; };
+		5E6D13741FA1C5B2002BA444 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D13721FA1C5B2002BA444 /* UIViewController+CurrentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		5E6D136B1FA1C183002BA444 /* ArenaShare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArenaShare.podspec; sourceTree = "<group>"; };
 		5E6D136D1FA1C263002BA444 /* Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Share.h; sourceTree = "<group>"; };
 		5E6D136E1FA1C263002BA444 /* Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Share.m; sourceTree = "<group>"; };
+		5E6D13711FA1C5B2002BA444 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
+		5E6D13721FA1C5B2002BA444 /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		5E6D133D1FA1BFF1002BA444 /* ArenaShare */ = {
 			isa = PBXGroup;
 			children = (
+				5E6D13711FA1C5B2002BA444 /* UIViewController+CurrentViewController.h */,
+				5E6D13721FA1C5B2002BA444 /* UIViewController+CurrentViewController.m */,
 				5E6D136D1FA1C263002BA444 /* Share.h */,
 				5E6D136E1FA1C263002BA444 /* Share.m */,
 				5E6D133E1FA1BFF1002BA444 /* ArenaShare.h */,
@@ -191,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6D136F1FA1C263002BA444 /* Share.h in Headers */,
+				5E6D13731FA1C5B2002BA444 /* UIViewController+CurrentViewController.h in Headers */,
 				5E6D13601FA1C00C002BA444 /* UMSocialSinaHandler.h in Headers */,
 				5E6D13641FA1C00C002BA444 /* UMSocialWechatHandler.h in Headers */,
 				5E6D135E1FA1C00C002BA444 /* UMSocialQQHandler.h in Headers */,
@@ -271,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6D13701FA1C263002BA444 /* Share.m in Sources */,
+				5E6D13741FA1C5B2002BA444 /* UIViewController+CurrentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
