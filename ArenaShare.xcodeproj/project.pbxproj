@@ -22,6 +22,9 @@
 		5E6D13681FA1C00C002BA444 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6D13591FA1C00C002BA444 /* libUMSocialLog.a */; };
 		5E6D13691FA1C00C002BA444 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D135B1FA1C00C002BA444 /* UMSocialSDKResources.bundle */; };
 		5E6D136A1FA1C00C002BA444 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6D135C1FA1C00C002BA444 /* UShareUI.framework */; };
+		5E6D136C1FA1C183002BA444 /* ArenaShare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D136B1FA1C183002BA444 /* ArenaShare.podspec */; };
+		5E6D136F1FA1C263002BA444 /* Share.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6D136D1FA1C263002BA444 /* Share.h */; };
+		5E6D13701FA1C263002BA444 /* Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D136E1FA1C263002BA444 /* Share.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		5E6D13591FA1C00C002BA444 /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
 		5E6D135B1FA1C00C002BA444 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		5E6D135C1FA1C00C002BA444 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		5E6D136B1FA1C183002BA444 /* ArenaShare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArenaShare.podspec; sourceTree = "<group>"; };
+		5E6D136D1FA1C263002BA444 /* Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Share.h; sourceTree = "<group>"; };
+		5E6D136E1FA1C263002BA444 /* Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Share.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		5E6D13311FA1BFF1002BA444 = {
 			isa = PBXGroup;
 			children = (
+				5E6D136B1FA1C183002BA444 /* ArenaShare.podspec */,
 				5E6D13461FA1C00C002BA444 /* UMSocial */,
 				5E6D133D1FA1BFF1002BA444 /* ArenaShare */,
 				5E6D133C1FA1BFF1002BA444 /* Products */,
@@ -83,6 +90,8 @@
 		5E6D133D1FA1BFF1002BA444 /* ArenaShare */ = {
 			isa = PBXGroup;
 			children = (
+				5E6D136D1FA1C263002BA444 /* Share.h */,
+				5E6D136E1FA1C263002BA444 /* Share.m */,
 				5E6D133E1FA1BFF1002BA444 /* ArenaShare.h */,
 				5E6D133F1FA1BFF1002BA444 /* Info.plist */,
 			);
@@ -181,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6D136F1FA1C263002BA444 /* Share.h in Headers */,
 				5E6D13601FA1C00C002BA444 /* UMSocialSinaHandler.h in Headers */,
 				5E6D13641FA1C00C002BA444 /* UMSocialWechatHandler.h in Headers */,
 				5E6D135E1FA1C00C002BA444 /* UMSocialQQHandler.h in Headers */,
@@ -247,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6D136C1FA1C183002BA444 /* ArenaShare.podspec in Resources */,
 				5E6D13671FA1C00C002BA444 /* UMSocialSDKPromptResources.bundle in Resources */,
 				5E6D13691FA1C00C002BA444 /* UMSocialSDKResources.bundle in Resources */,
 			);
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6D13701FA1C263002BA444 /* Share.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

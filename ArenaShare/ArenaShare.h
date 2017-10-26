@@ -6,7 +6,6 @@
 //  Copyright © 2017年 江苏斑马软件技术有限公司. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
 //! Project version number for ArenaShare.
 FOUNDATION_EXPORT double ArenaShareVersionNumber;
